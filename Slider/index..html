@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Slider Project</title>
+  </head>
+  <body>
+    <div class="slider-container">
+      <div class="left-slide">
+        <div style="background-color: #b5893c">
+          <h1>The Godfather</h1>
+          <p>Crime Mafia</p>
+        </div>
+        <div style="background-color: #7b6744">
+          <h1>Lord Of The Rings</h1>
+          <p>Adventure Action Drama</p>
+        </div>
+        <div style="background-color: #0a0307">
+          <h1>Harry Potter</h1>
+          <p>Fantasy</p>
+        </div>
+        <div style="background-color: #462422">
+          <h1>Django Unchained</h1>
+          <p>Western</p>
+        </div>
+      </div>
+
+      <!-- contain photos -->
+      <div class="right-slide">
+        <div style="background-image: url(/image/django.jpg)"></div>
+        <div style="background-image: url(/image/hp.jpg)"></div>
+        <div style="background-image: url(/image/lotr.jpg)"></div>
+        <div style="background-image: url(/image/god-father.jpg)"></div>
+      </div>
+      <div class="action-buttons">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
